@@ -1,0 +1,53 @@
+.nav_row {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    width: auto;
+    height: 100%;
+    padding: 0;
+}
+
+.nav_left_div {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav_left_div img {
+    margin-left: -28px;
+    margin-top: -10px;
+    width: 150px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_left_div h1 {
+    justify-content: start;
+    color: rgb(65, 71, 164);
+    font-weight: 800;
+    font-size: 33px;
+    margin: 0;
+}
+
+.nav_right_div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+
+}
+
+.nav_right_div input {
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 4px 0px 0px rgb(73, 73, 73);
+    width: 70%;
+    height: 40px;
+    padding: 5px 10px;
+}
